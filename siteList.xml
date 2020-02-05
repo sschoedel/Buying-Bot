@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<siteData>
+	<siteName>
+		<name>eBay</name>
+		<name>adafruit</name>
+		<name>sparkfun</name>
+		<name>amazon</name>
+		<name>redditBay</name>
+	</siteName>
+	<siteLink>
+		<link>https://www.ebay.com</link>
+		<link>https://www.adafruit.com</link>
+		<link>https://www.sparkfun.com</link>
+		<link>https://www.amazon.com</link>
+		<link>https://www.reddit.com/r/redditbay/</link>
+	</siteLink>
+	<searchWords>
+		<sensors>
+			lidar, force, current
+		</sensors>
+		<boards>
+			teensy 4.0, teensy4.0, relay board, 
+		</boards>
+		<motors>
+			brushless, BLDC, stepper, steppers, motor driver, DC, motor
+		</motors>
+		<drones>
+			quad, quadcopter, FPV, fatshark, fat shark, dominator, DJI
+		</drones>
+		<misc>
+		</misc>
+	</searchWords>
+</siteData>
