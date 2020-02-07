@@ -6,12 +6,20 @@
 	</siteName>
 	<searchPrefix>
 		<ebayPrefix>https://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=m570.l1313&amp;_nkw=</ebayPrefix>
+		<amazonPrefix>https://www.amazon.com/s?k=</amazonPrefix>
 	</searchPrefix>
 	<searchSuffix>
 		<ebaySuffix>&amp;_sacat=0&amp;LH_TitleDesc=0&amp;_oac=1</ebaySuffix>
+		<amazonPrefix>&amp;ref=nb_sb_noss_2</amazonPrefix>
 	</searchSuffix>
 	<searchWords>
-		grapes, esp 6288
+		<misc>
+			lawn chairs, justin
+		</misc>
+	</searchWords>
+</siteData>
+
+
 		<!--<sensors>
 			lidar, force, current
 		</sensors>
@@ -26,5 +34,3 @@
 		</drones>
 		<misc>
 		</misc>-->
-	</searchWords>
-</siteData>
