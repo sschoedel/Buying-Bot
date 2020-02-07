@@ -41,8 +41,8 @@ def genPossReplacements(discWord):
 				tempWord = list(discWord)
 				tempWord[i] = replacementC
 				possWordReplacements.append("".join(tempWord))
-	return [replacements.lower() for replacements in possWordReplacements]
-
+	# return [replacements.lower() for replacements in possWordReplacements]
+	return possWordReplacements
 def compare(word, discoveredWords):
 	# Generate all words to within one letter of the original for all words in discoveredWords
 	# Ex: given word: paper   acceptable words: aper, pper, paer, papr, pape, qaper, pbper
@@ -52,8 +52,9 @@ def compare(word, discoveredWords):
 	# > 'abc'
 	result = False
 	for discWord in discoveredWords:
-		print(word.lower(), genPossReplacements(discWord))
+		print(f'word.lower(): {word.lower()}, replacements: {genPossReplacements(discWord)}')
+		print("HI")
 		if word.lower() in genPossReplacements(discWord):
 			result = True
-			brea
+			break
 	return result
